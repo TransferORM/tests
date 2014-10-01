@@ -8,7 +8,7 @@
 
 	this.mappings = {
 		"/test" = getDirectoryFromPath(getCurrentTemplatePath()),
-		"/transfer" = expandPath("../"),
+		"/transfer" = expandPath("../transfer"),
 		"/net" = expandPath("./net")
 	};
 
